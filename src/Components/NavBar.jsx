@@ -4,6 +4,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
+import { Link } from 'react-router-dom';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -14,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   green: {
-    backgroundColor: "#8fbc8f"
+    backgroundColor: "#8fbc8f" 
   },
   gray: {
     backgroundColor: "#778899"
@@ -33,9 +34,9 @@ function NavBar() {
           <Typography variant="h5" className={classes.title}>
             PlantyFo
           </Typography>
-          <Button color="inherit">Home</Button> 
-          <Button color="inherit">Login</Button> 
-          <Button color="inherit">Sign Up</Button> 
+          <Button color="inherit" to="/" component={ Link }>Home </Button> 
+          <Button color="inherit" to="/login" component={ Link }>Login</Button> 
+          <Button color="inherit" to="/signup" component={ Link }>Sign Up</Button> 
         </Toolbar>
       </AppBar>
     </div>
