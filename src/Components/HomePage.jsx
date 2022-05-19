@@ -15,6 +15,9 @@ const HomePage = () => {
     })
   } , [])
 
+  const plantSearch = plantLoad.filter((plant) =>
+  plant.name.toLowerCase().includes(search.toLowerCase())
+  )
 
   return (
     <div>
@@ -24,7 +27,6 @@ const HomePage = () => {
          <br/>
          <br/>
          <h2>Plant Search</h2>
-         <br/>
          <Search search={search} setSearch={setSearch}/>
       </Container>
     </div>
