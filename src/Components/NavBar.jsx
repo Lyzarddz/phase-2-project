@@ -37,6 +37,7 @@ function NavBar() {
           <Button color="inherit" to="/" component={ Link }>Home </Button> 
           <Button color="inherit" to="/login" component={ Link }>Login</Button> 
           <Button color="inherit" to="/signup" component={ Link }>Sign Up</Button> 
+          <Button color="inherit" to="/create" component={ Link }>Add PlantyFo</Button> 
         </Toolbar>
       </AppBar>
     </div>

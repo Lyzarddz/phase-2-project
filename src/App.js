@@ -3,8 +3,9 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './Components/NavBar';
 import HomePage from './Components/HomePage';
-import Signup from './Components/Signup';
 import Login from './Components/Login';
+import CreatePlant from './Components/CreatePlant';
+import Signup from './Components/Signup';
 
 // const useStyles = makeStyles({
 //   buttonColor:{
@@ -20,8 +21,9 @@ function App() {
       <NavBar/>
       <Routes>
       <Route path="/" element= {<HomePage />} />
-      <Route path="/signup" element= {<Signup />} />
+      <Route path="/create" element= {<CreatePlant />} />
       <Route path="/login" element= {<Login />} />
+      <Route path="/signup" element= {<Signup />} />
       </Routes>
     </Router>
   );

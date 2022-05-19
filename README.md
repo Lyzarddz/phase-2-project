@@ -1,4 +1,4 @@
-# Hangman with React
+# PlantyFo
 
 ## Requirements
 * Uses Node version 16.10.0
@@ -6,7 +6,7 @@
 * Need to have json-server version 0.17.0
 
 ### Installation
-For and Clone
+Fork and Clone
 Open project, run either yarn install or npm install 
 Run Yarn Start
 
