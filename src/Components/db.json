@@ -1,0 +1,122 @@
+
+        {
+            "plants":[
+                {
+                    "id": 1,
+                    "name": "Monstera Deliciosa",
+                    "origin": "Southern Mexico",
+                    "petsafe": "No",
+                    "lightneeds": "5 to 8 hours of bright indirect light a day ",
+                    "humidity": "60-80%",
+                    "substrate": "1 part peat moss/coco coir, 1 part perlite, and 4 parts pine bark fine",
+                    "water": "Once a week",
+                    "photo": ""
+                },
+                {  
+                    "id": 2,
+                    "name": "Monstera Deliciosa",
+                    "origin": "Southern Mexico",
+                    "petsafe": "No",
+                    "lightneeds": "5 to 8 hours of bright indirect light a day ",
+                    "humidity": "60-80%",
+                    "substrate": "1 part peat moss/coco coir, 1 part perlite, and 4 parts pine bark fine",
+                    "water": "Once a week",
+                    "photo": ""
+            },
+                {  
+                    "id": 3,
+                    "name": "Monstera Deliciosa",
+                    "origin": "Southern Mexico",
+                    "petsafe": "No",
+                    "lightneeds": "5 to 8 hours of bright indirect light a day ",
+                    "humidity": "60-80%",
+                    "substrate": "1 part peat moss/coco coir, 1 part perlite, and 4 parts pine bark fine",
+                    "water": "Once a week",
+                    "photo": ""
+                },
+                {
+                "id": 4,
+                "name": "Monstera Deliciosa",
+                "origin": "Southern Mexico",
+                "petsafe": "No",
+                "lightneeds": "5 to 8 hours of bright indirect light a day ",
+                "humidity": "60-80%",
+                "substrate": "1 part peat moss/coco coir, 1 part perlite, and 4 parts pine bark fine",
+                "water": "Once a week",
+                "photo": ""
+            },
+            {
+                "id": 5,
+                "name": "Monstera Deliciosa",
+                "origin": "Southern Mexico",
+                "petsafe": "No",
+                "lightneeds": "5 to 8 hours of bright indirect light a day ",
+                "humidity": "60-80%",
+                "substrate": "1 part peat moss/coco coir, 1 part perlite, and 4 parts pine bark fine",
+                "water": "Once a week",
+                "photo": ""
+        
+            },
+            {
+                "id": 6,
+                "name": "Monstera Deliciosa",
+                "origin": "Southern Mexico",
+                "petsafe": "No",
+                "lightneeds": "5 to 8 hours of bright indirect light a day ",
+                "humidity": "60-80%",
+                "substrate": "1 part peat moss/coco coir, 1 part perlite, and 4 parts pine bark fine",
+                "water": "Once a week",
+                "photo": ""
+        
+            },
+            {
+                "id": 7,
+                "name": "Monstera Deliciosa",
+                "origin": "Southern Mexico",
+                "petsafe": "No",
+                "lightneeds": "5 to 8 hours of bright indirect light a day ",
+                "humidity": "60-80%",
+                "substrate": "1 part peat moss/coco coir, 1 part perlite, and 4 parts pine bark fine",
+                "water": "Once a week",
+                "photo": ""
+        
+            },
+            {
+                "id": 8,
+                "name": "Monstera Deliciosa",
+                "origin": "Southern Mexico",
+                "petsafe": "No",
+                "lightneeds": "5 to 8 hours of bright indirect light a day ",
+                "humidity": "60-80%",
+                "substrate": "1 part peat moss/coco coir, 1 part perlite, and 4 parts pine bark fine",
+                "water": "Once a week",
+                "photo": ""
+        
+            },
+          {
+            "id": 9,
+            "name": "Monstera Deliciosa",
+            "origin": "Southern Mexico",
+            "petsafe": "No",
+            "lightneeds": "5 to 8 hours of bright indirect light a day ",
+            "humidity": "60-80%",
+            "substrate": "1 part peat moss/coco coir, 1 part perlite, and 4 parts pine bark fine",
+            "water": "Once a week",
+            "photo": ""
+    
+          },
+          {
+            "id": 10,
+            "name": "Monstera Deliciosa",
+            "origin": "Southern Mexico",
+            "petsafe": "No",
+            "lightneeds": "5 to 8 hours of bright indirect light a day ",
+            "humidity": "60-80%",
+            "substrate": "1 part peat moss/coco coir, 1 part perlite, and 4 parts pine bark fine",
+            "water": "Once a week",
+            "photo": ""
+    
+          }
+                
+                ]
+            }
