@@ -95,24 +95,24 @@
             },
           {
             "id": 9,
-            "name": "Monstera Deliciosa",
-            "origin": "Southern Mexico",
-            "petsafe": "No",
-            "lightneeds": "5 to 8 hours of bright indirect light a day ",
-            "humidity": "60-80%",
-            "substrate": "1 part peat moss/coco coir, 1 part perlite, and 4 parts pine bark fine",
-            "water": "Once a week",
+            "name": "String of Turtles",
+            "origin": "Rainforests of Brazil",
+            "petsafe": "Yes",
+            "lightneeds": "Bright Indirect Light",
+            "humidity": "40-60%",
+            "substrate": "A peat moss or sphagnum moss potting mix of organic soil with part sand and perlite",
+            "water": "Every 2 weeks",
             "photo": ""
     
           },
           {
             "id": 10,
-            "name": "Monstera Deliciosa",
-            "origin": "Southern Mexico",
+            "name": "Croton",
+            "origin": "Malaysia and the Pacific",
             "petsafe": "No",
-            "lightneeds": "5 to 8 hours of bright indirect light a day ",
-            "humidity": "60-80%",
-            "substrate": "1 part peat moss/coco coir, 1 part perlite, and 4 parts pine bark fine",
+            "lightneeds": "Full Sun",
+            "humidity": "40-80%",
+            "substrate": "A combination of regular houseplant soil, peat moss, and perlite",
             "water": "Once a week",
             "photo": ""
     
