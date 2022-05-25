@@ -5,6 +5,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import { Link } from 'react-router-dom';
+import { GiMonsteraLeaf} from "react-icons/gi";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -30,7 +31,7 @@ function NavBar() {
     <div className={classes.root}>
       <AppBar position="static" className= {classes.green}>
         <Toolbar>
-          
+          <h1>   <GiMonsteraLeaf/></h1>
           <Typography variant="h5" className={classes.title}>
             PlantyFo
           </Typography>
