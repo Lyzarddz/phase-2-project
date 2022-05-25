@@ -1,5 +1,6 @@
 
 // import { makeStyles } from '@material-ui/core/styles';
+import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './Components/NavBar';
 import HomePage from './Components/HomePage';
@@ -15,6 +16,9 @@ import Signup from './Components/Signup';
  
 function App() {
   // const classes = useStyles();
+
+  const[currentUser, setCurrentUser] = useState({});
+  const [loggedIn, setLoggedIn]  = useState(false);
 
   return (
     <Router>
