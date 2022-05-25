@@ -1,9 +1,10 @@
-import React, {useState} from 'react'
-
+import React, {useState} from 'react';
+import { useNavigate } from 'react-router-dom';
 
 
  const Signup = () => {
   const [username, setUsername] = useState("");
+  const navigate = useNavigate();
 
   function handleSubmit(e){
     e.preventDefault();
@@ -17,7 +18,7 @@ import React, {useState} from 'react'
       body: JSON.stringify({username})
     }) 
     .then(resp => resp.json())
-    .then(data => console.log(data))
+    .then(data => navigate('/'))
   }
  
   return ( 
