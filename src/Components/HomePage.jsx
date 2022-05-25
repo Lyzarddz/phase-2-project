@@ -8,7 +8,7 @@ const HomePage = () => {
   const [plantLoad, setPlantLoad] = useState([]);
 
   useEffect(() => {
-    fetch("API SERVER HERE")
+    fetch("http://localhost:3001/plants")
     .then((resp) => resp.json())
     .then((data)=> {
       setPlantLoad(data)
