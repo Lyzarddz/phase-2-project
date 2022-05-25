@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { useNavigate } from 'react-router-dom';
 
 
- const Signup = () => {
+ const Signup = ({loginUser}) => {
   const [username, setUsername] = useState("");
   const navigate = useNavigate();
 
@@ -18,7 +18,10 @@ import { useNavigate } from 'react-router-dom';
       body: JSON.stringify({username})
     }) 
     .then(resp => resp.json())
-    .then(data => navigate('/'))
+    .then(data => {
+      loginUser(data);
+      navigate('/'); 
+    })
   }
  
   return ( 

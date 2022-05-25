@@ -1,6 +1,6 @@
 
 // import { makeStyles } from '@material-ui/core/styles';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './Components/NavBar';
 import HomePage from './Components/HomePage';
@@ -20,14 +20,34 @@ function App() {
   const[currentUser, setCurrentUser] = useState({});
   const [loggedIn, setLoggedIn]  = useState(false);
 
+function loginUser (user) {
+  setCurrentUser(user);
+  setLoggedIn(true);
+  localStorage.setItem('user_id', user.id);
+}
+
+useEffect(() => {
+  const userId = localStorage.getItem('user_id')
+  if (userId && !loggedIn) {
+    fetch('http://localhost:3001/users/' + userId )
+    .then(resp => resp.json())
+    .then(data => loginUser(data))
+
+  }
+
+}, [])
+
+
+
   return (
     <Router>
       <NavBar/>
+      {loggedIn ? <h1>Logged In!</h1> : null}
       <Routes>
       <Route path="/" element= {<HomePage />} />
       <Route path="/create" element= {<CreatePlant />} />
       <Route path="/login" element= {<Login />} />
-      <Route path="/signup" element= {<Signup />} />
+      <Route path="/signup"  element= {<Signup loginUser={loginUser} />} />
       </Routes>
     </Router>
   );
