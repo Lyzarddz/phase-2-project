@@ -41,8 +41,7 @@ useEffect(() => {
 
   return (
     <Router>
-      <NavBar/>
-      {loggedIn ? <h1>Logged In!</h1> : null}
+      <NavBar loggedIn={loggedIn}/>
       <Routes>
       <Route path="/" element= {<HomePage />} />
       <Route path="/create" element= {<CreatePlant />} />

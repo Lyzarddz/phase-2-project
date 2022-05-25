@@ -24,8 +24,28 @@ const useStyles = makeStyles((theme) => ({
 
 }));
 
-function NavBar() {
+function NavBar({ loggedIn }) {
   const classes = useStyles();
+
+  function loggedInLinks(){
+    return (
+      <ul>
+         <Button color="inherit" to="/" component={ Link }>Home </Button> 
+         <Button color="inherit" to="/create" component={ Link }>Add PlantyFo</Button> 
+         <li>Logout</li>
+      </ul>
+    )
+  }
+
+  function loggedOutLinks(){
+    return(
+      <ul>
+          <Button color="inherit" to="/" component={ Link }>Home </Button> 
+          <Button color="inherit" to="/login" component={ Link }>Login</Button> 
+          <Button color="inherit" to="/signup" component={ Link }>Sign Up</Button> 
+      </ul>
+    )
+  }
 
   return (
     <div className={classes.root}>
@@ -35,11 +55,7 @@ function NavBar() {
           <Typography variant="h5" className={classes.title}>
             PlantyFo
           </Typography>
-          <Button color="inherit" to="/" component={ Link }>Home </Button> 
-          <Button color="inherit" to="/login" component={ Link }>Login</Button> 
-          <Button color="inherit" to="/signup" component={ Link }>Sign Up</Button> 
-          <Button color="inherit" to="/create" component={ Link }>Add PlantyFo</Button> 
-          <li>Logout</li>
+        { loggedIn ? loggedInLinks() :  loggedOutLinks}
         </Toolbar>
       </AppBar>
     </div>
