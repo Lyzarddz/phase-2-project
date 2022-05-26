@@ -29,9 +29,10 @@ import { useNavigate } from 'react-router-dom';
     <h1>Create Account</h1> 
     <form onSubmit={ handleSubmit}>
       <div>
-        <label htmlFor="username ">Username:</label>
+        <label htmlFor="username ">Username: </label>
         <input type="text" name="username" id="username" value={username} onChange={(e) => setUsername(e.target.value)} />
         </div>   
+        <br></br>
         <input type="submit" value="Create Account" />
     </form>
    

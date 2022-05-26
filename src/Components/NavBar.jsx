@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import { Link } from 'react-router-dom';
 import { GiMonsteraLeaf} from "react-icons/gi";
-
+import { FaLeaf} from "react-icons/fa"
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -24,15 +24,26 @@ const useStyles = makeStyles((theme) => ({
 
 }));
 
-function NavBar({ loggedIn }) {
+function NavBar({ loggedIn, logoutUser}) {
   const classes = useStyles();
+
+  function logout(e) {
+    e.preventDefault();
+    logoutUser();
+    
+  }
 
   function loggedInLinks(){
     return (
       <ul>
+        <FaLeaf/>
          <Button color="inherit" to="/" component={ Link }>Home </Button> 
+         <FaLeaf/>
          <Button color="inherit" to="/create" component={ Link }>Add PlantyFo</Button> 
-         <li>Logout</li>
+         <li>
+           <a href="#" onClick={logout}>Logout
+           </a>
+           </li>
       </ul>
     )
   }
@@ -40,8 +51,11 @@ function NavBar({ loggedIn }) {
   function loggedOutLinks(){
     return(
       <ul>
+        <FaLeaf/>
           <Button color="inherit" to="/" component={ Link }>Home </Button> 
+          <FaLeaf/>
           <Button color="inherit" to="/login" component={ Link }>Login</Button> 
+          <FaLeaf/>
           <Button color="inherit" to="/signup" component={ Link }>Sign Up</Button> 
       </ul>
     )
@@ -52,10 +66,10 @@ function NavBar({ loggedIn }) {
       <AppBar position="static" className= {classes.green}>
         <Toolbar>
           <h1>   <GiMonsteraLeaf/></h1>
-          <Typography variant="h5" className={classes.title}>
+          <Typography variant="h5" className={classes.title}> 
             PlantyFo
           </Typography>
-        { loggedIn ? loggedInLinks() :  loggedOutLinks}
+        { loggedIn ? loggedInLinks() :  loggedOutLinks()}
         </Toolbar>
       </AppBar>
     </div>

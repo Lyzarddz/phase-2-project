@@ -26,6 +26,12 @@ function loginUser (user) {
   localStorage.setItem('user_id', user.id);
 }
 
+function logoutUser () {
+  setCurrentUser({});
+  setLoggedIn(false);
+  localStorage.removeItem('user_id');
+}
+
 useEffect(() => {
   const userId = localStorage.getItem('user_id')
   if (userId && !loggedIn) {
@@ -41,7 +47,7 @@ useEffect(() => {
 
   return (
     <Router>
-      <NavBar loggedIn={loggedIn}/>
+      <NavBar loggedIn={loggedIn} logoutUser={logoutUser}/>
       <Routes>
       <Route path="/" element= {<HomePage />} />
       <Route path="/create" element= {<CreatePlant />} />
