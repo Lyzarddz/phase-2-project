@@ -10,6 +10,7 @@ const Login = () => {
         <label htmlFor="username">Username: </label>
         <input type="text" name="username" id="username"></input>
       </div>
+      <input type="submit" value="Login" />
     </form>
     </div>
     
