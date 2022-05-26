@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import { useNavigate } from 'react-router-dom';
+import { GiCarnivorousPlant} from "react-icons/gi";
 
 
  const Signup = ({loginUser}) => {
@@ -26,7 +27,7 @@ import { useNavigate } from 'react-router-dom';
  
   return ( 
     <div>
-    <h1>Create Account</h1> 
+    <h1><GiCarnivorousPlant/> Create Account <GiCarnivorousPlant/></h1> 
     <form onSubmit={ handleSubmit}>
       <div>
         <label htmlFor="username ">Username: </label>

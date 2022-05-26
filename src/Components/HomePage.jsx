@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Container } from "@material-ui/core";
 import Search from "./Search";
+import { RiPlantLine} from "react-icons/ri"
 
 const HomePage = () => {
 
@@ -25,8 +26,7 @@ const HomePage = () => {
        <h2> Where all of your planty information is found</h2>
        <Container>
          <br/>
-         <br/>
-         <h2>Plant Search</h2>
+         <h2>  <RiPlantLine/> Plant Search  <RiPlantLine/> </h2>
          <Search search={search} setSearch={setSearch}/>
       </Container>
     </div>

@@ -1,9 +1,9 @@
 import React from 'react'
-
+import { GiCarnivorousPlant} from "react-icons/gi";
 
 const Login = () => {
   return (
-    <h3> Login </h3>
+    <h1> <GiCarnivorousPlant/> Login <GiCarnivorousPlant/> </h1>
     
     
   )
