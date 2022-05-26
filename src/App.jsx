@@ -43,8 +43,6 @@ useEffect(() => {
 
 }, [])
 
-
-
   return (
     <Router>
       <NavBar loggedIn={loggedIn} logoutUser={logoutUser}/>

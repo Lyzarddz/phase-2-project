@@ -34,7 +34,7 @@ import { GiCarnivorousPlant} from "react-icons/gi";
         <input type="text" name="username" id="username" value={username} onChange={(e) => setUsername(e.target.value)} />
         </div>   
         <br></br>
-        <input type="submit" value="Create Account" />
+        <input type="submit" value="Create Account" sty />
     </form>
    
     </div>
