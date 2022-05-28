@@ -7,6 +7,7 @@ import HomePage from './Components/HomePage';
 import Login from './Components/Login';
 import CreatePlant from './Components/CreatePlant';
 import Signup from './Components/Signup';
+import Errors from './Components/Errors';
 
 // const useStyles = makeStyles({
 //   buttonColor:{
@@ -19,6 +20,7 @@ function App() {
 
   const[currentUser, setCurrentUser] = useState({});
   const [loggedIn, setLoggedIn]  = useState(false);
+  const [errors, setErrors] = useState([]);
 
 function loginUser (user) {
   setCurrentUser(user);
@@ -32,6 +34,11 @@ function logoutUser () {
   localStorage.removeItem('user_id');
 }
 
+function addErrors (errors) {
+   setErrors(errors);
+}
+
+
 useEffect(() => {
   const userId = localStorage.getItem('user_id')
   if (userId && !loggedIn) {
@@ -41,16 +48,19 @@ useEffect(() => {
 
   }
 
-}, [])
+}, [loggedIn])
+
+
 
   return (
     <Router>
       <NavBar loggedIn={loggedIn} logoutUser={logoutUser}/>
+      <Errors errors= {errors} />
       <Routes>
       <Route path="/" element= {<HomePage />} />
       <Route path="/create" element= {<CreatePlant />} />
-      <Route path="/login" element= {<Login loginUser={loginUser}/>} />
-      <Route path="/signup"  element= {<Signup loginUser={loginUser} />} />
+      <Route path="/login" element= {<Login loginUser={loginUser} addErrors= {addErrors}/>} />
+      <Route path="/signup"  element= {<Signup loginUser={loginUser} addErrors= {addErrors} />} />
       </Routes>
     </Router>
   );

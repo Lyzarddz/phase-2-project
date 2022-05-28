@@ -2,7 +2,7 @@ import React, { useState , useEffect } from 'react'
 import { GiCarnivorousPlant} from "react-icons/gi";
 import { useNavigate } from 'react-router-dom';
 
-const Login = ({ loginUser }) => {
+const Login = ({ loginUser, addErrors }) => {
 
   const [username, setUsername] = useState("");
   const [users, setUsers] = useState([]);
@@ -21,6 +21,9 @@ const Login = ({ loginUser }) => {
    if(user) {
      loginUser(user);
      navigate("/");
+   } else {
+     addErrors(["Username Does Not Exist"])
+
    }
 
   }
