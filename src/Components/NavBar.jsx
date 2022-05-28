@@ -41,6 +41,7 @@ function NavBar({ loggedIn, logoutUser}) {
          <FaLeaf/>
          <Button color="inherit" to="/create" component={ Link }>Add PlantyFo</Button> 
          <li>
+           
            <a href="#" onClick={logout}>Logout
            </a>
            </li>

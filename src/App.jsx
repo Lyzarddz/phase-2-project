@@ -49,7 +49,7 @@ useEffect(() => {
       <Routes>
       <Route path="/" element= {<HomePage />} />
       <Route path="/create" element= {<CreatePlant />} />
-      <Route path="/login" element= {<Login />} />
+      <Route path="/login" element= {<Login loginUser={loginUser}/>} />
       <Route path="/signup"  element= {<Signup loginUser={loginUser} />} />
       </Routes>
     </Router>
