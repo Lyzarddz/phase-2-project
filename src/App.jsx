@@ -38,6 +38,9 @@ function addErrors (errors) {
    setErrors(errors);
 }
 
+const clearErrors = () => {
+  setErrors([]);
+}
 
 useEffect(() => {
   const userId = localStorage.getItem('user_id')
@@ -59,8 +62,8 @@ useEffect(() => {
       <Routes>
       <Route path="/" element= {<HomePage />} />
       <Route path="/create" element= {<CreatePlant />} />
-      <Route path="/login" element= {<Login loginUser={loginUser} addErrors= {addErrors}/>} />
-      <Route path="/signup"  element= {<Signup loginUser={loginUser} addErrors= {addErrors} />} />
+      <Route path="/login" element= {<Login clearErrors={ clearErrors } loginUser={loginUser} addErrors= {addErrors}/>} />
+      <Route path="/signup"  element= {<Signup clearErrors={ clearErrors } loginUser={loginUser} addErrors= {addErrors} />} />
       </Routes>
     </Router>
   );

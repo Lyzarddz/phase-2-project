@@ -1,56 +1,52 @@
-import React, { useState , useEffect } from 'react'
-import { GiCarnivorousPlant} from "react-icons/gi";
+import React, { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom';
+import { GiCarnivorousPlant} from "react-icons/gi";
 
-const Login = ({ loginUser, addErrors }) => {
-
+const Login = ({ loginUser, addErrors, clearErrors }) => {
   const [username, setUsername] = useState("");
   const [users, setUsers] = useState([]);
 
-  const navigate = useNavigate();
+  const navigate = useNavigate(0);
 
-  function handleChange(e){
+  const handleChange = e => {
     setUsername(e.target.value);
   }
 
-  function handleSubmit(e){
-   e.preventDefault();
-   console.log("clicked login")
-   
-   const user = users.find(user => user.username.toLowerCase() === username.toLowerCase());
-   if(user) {
-     loginUser(user);
-     navigate("/");
-   } else {
-     addErrors(["Username Does Not Exist"])
+  const handleSubmit = e => {
+    e.preventDefault();
 
-   }
-
+    const user = users.find(user => user.username.toLowerCase() === username.toLowerCase());
+    if(user) {
+      loginUser(user);
+      navigate("/")
+    } else {
+      addErrors(["Username did not match anything in the database"])
+    }
   }
 
   useEffect(() => {
-    fetch('http://localhost:3001/users')
-    .then(resp => resp.json())
-    .then(data => setUsers(data))
-  }, [])
+    fetch('http://localhost:3000/users')
+      .then(resp => resp.json())
+      .then(data => setUsers(data))
 
+    return () => {
+      clearErrors();
+    }
+  }, [])
 
   return (
     <div>
-    <h1> <GiCarnivorousPlant/> Login <GiCarnivorousPlant/> </h1>   
-    <form onSubmit={handleSubmit}>
-      <div>
-        <label htmlFor="username">Username: </label>
-        <input type="text" name="username" id="username" onChange={handleChange} value={username}></input>
-      </div>
-      <br></br>
-      <input type="submit" value="Login"/>
-    </form>
+    <h1><GiCarnivorousPlant/> Log In <GiCarnivorousPlant/></h1> 
+      <form onSubmit={ handleSubmit }>
+        <div>
+          <label htmlFor="username">Username: </label>
+          <input type="text" name="username" id="username" onChange={ handleChange } value={ username } />
+        </div>
+
+        <input type="submit" value="Login" />
+      </form>
     </div>
-    
   )
 }
 
 export default Login
-
-

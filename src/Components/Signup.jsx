@@ -1,16 +1,17 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import { useNavigate } from 'react-router-dom';
 import { GiCarnivorousPlant} from "react-icons/gi";
 
 
- const Signup = ({loginUser}) => {
+ const Signup = ({loginUser, clearErrors, addErrors }) => {
   const [username, setUsername] = useState("");
   const navigate = useNavigate();
 
   function handleSubmit(e){
     e.preventDefault();
 
-    fetch('http://localhost:3001/users', {
+    if(username.length >= 5) {
+    fetch('http://localhost:3000/users', {
       method: 'POST',
       headers: {
         "Content-Type": "application/json",
@@ -23,7 +24,16 @@ import { GiCarnivorousPlant} from "react-icons/gi";
       loginUser(data);
       navigate('/'); 
     })
+  }else {
+    addErrors(["Username must have more than 5 characters"])
   }
+}
+
+useEffect(() => {
+  return () => {
+    clearErrors();
+  }
+}, [])
  
   return ( 
     <div>
