@@ -11,11 +11,12 @@ const HomePage = () => {
   const [plantLoad, setPlantLoad] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3001/plants")
+    fetch("http://localhost:3000/plants")
     .then((resp) => resp.json())
     .then((data)=> {
       setPlantLoad(data)
     })
+    console.log(plantLoad)
   } , [])
 
   const plantSearch = plantLoad.filter((plant) =>

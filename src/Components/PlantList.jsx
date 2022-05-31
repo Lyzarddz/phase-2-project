@@ -13,7 +13,10 @@ const PlantList = ( { plant } ) => {
   })  
 
   return (
-    <div>PlantList</div>
+    <Card.Group itemsPerRow={3}>
+        {cards}
+        <h1>From Plant List</h1>
+    </Card.Group>
   )
 }
 
