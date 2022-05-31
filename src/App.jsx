@@ -8,7 +8,6 @@ import Login from './Components/Login';
 import CreatePlant from './Components/CreatePlant';
 import Signup from './Components/Signup';
 import Errors from './Components/Errors';
-
 // const useStyles = makeStyles({
 //   buttonColor:{
 //     backgroundColor: 'red'
@@ -58,6 +57,7 @@ useEffect(() => {
   return (
     <Router>
       <NavBar loggedIn={loggedIn} logoutUser={logoutUser}/>
+    
       <Errors errors= {errors} />
       <Routes>
       <Route path="/" element= {<HomePage />} />
@@ -66,6 +66,7 @@ useEffect(() => {
       <Route path="/signup"  element= {<Signup clearErrors={ clearErrors } loginUser={loginUser} addErrors= {addErrors} />} />
       </Routes>
     </Router>
+    
   );
 }
 
