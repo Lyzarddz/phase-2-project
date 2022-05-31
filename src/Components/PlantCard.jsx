@@ -1,3 +1,4 @@
+import { PlayCircleOutlineTwoTone } from '@material-ui/icons';
 import React from 'react';
 import { Card } from "semantic-ui-react";
 
@@ -12,10 +13,26 @@ const PlantCard = ( { plant } ) => {
           <div className="header">{plant.name}</div>
         </div>
         <div className="extra content">
-          {/* <span>
-            <i className="icon heartbeat red" />
-            {pokemon.hp}
-          </span> */}
+            <ul>
+           <li>
+            Origin: {plant.origin}
+            </li>
+            <li>
+            Pet Safe?: {plant.petsafe}
+            </li>
+            <li>
+             Light Needs: {plant.lightneeds}    
+            </li>
+            <li>
+            Humidity: {plant.humidity}
+            </li>
+            <li>
+            Ideal Substrate: {plant.substrate}
+            </li>
+            <li>
+            Water Needs: {plant.water}
+            </li>
+            </ul>
         </div>
 
 
