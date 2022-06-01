@@ -13,10 +13,9 @@ const PlantList = ( { plant } ) => {
   })  
 
   return (
-    <Card.Group itemsPerRow={3}>
+    <Card>
         {cards}
-        <h1>From Plant List</h1>
-    </Card.Group>
+    </Card>
   )
 }
 

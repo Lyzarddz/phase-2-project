@@ -16,7 +16,7 @@ const HomePage = () => {
     .then((data)=> {
       setPlantLoad(data)
     })
-    console.log(plantLoad)
+     
   } , [])
 
   const plantSearch = plantLoad.filter((plant) =>
@@ -32,6 +32,8 @@ const HomePage = () => {
          <h2>  <RiPlantLine/> Plant Search  <RiPlantLine/> </h2>
          <Search search={search} setSearch={setSearch}/>
       </Container>
+      <br></br>
+      <br></br>
       <PlantList plant={plantSearch}/>
     </div>
 

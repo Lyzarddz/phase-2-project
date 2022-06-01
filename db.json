@@ -9,7 +9,7 @@
       "humidity": "60-80%",
       "substrate": "1 part peat moss/coco coir, 1 part perlite, and 4 parts pine bark fine",
       "water": "Once a week",
-      "photo": ""
+      "photo": "https://user-images.githubusercontent.com/91993983/171305558-72ea7aa5-97dd-4c94-ae97-f1f5582da580.jpeg"
     },
     {
       "id": 2,
@@ -163,6 +163,10 @@
     {
       "username": "Lyzarddz",
       "id": 13
+    },
+    {
+      "username": "Lyzarddz",
+      "id": 14
     }
   ]
 }

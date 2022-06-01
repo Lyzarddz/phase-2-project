@@ -1,5 +1,4 @@
 
-// import { makeStyles } from '@material-ui/core/styles';
 import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './Components/NavBar';
@@ -8,14 +7,10 @@ import Login from './Components/Login';
 import CreatePlant from './Components/CreatePlant';
 import Signup from './Components/Signup';
 import Errors from './Components/Errors';
-// const useStyles = makeStyles({
-//   buttonColor:{
-//     backgroundColor: 'red'
-//   }
-// })
+
  
 function App() {
-  // const classes = useStyles();
+
 
   const[currentUser, setCurrentUser] = useState({});
   const [loggedIn, setLoggedIn]  = useState(false);
@@ -57,7 +52,6 @@ useEffect(() => {
   return (
     <Router>
       <NavBar loggedIn={loggedIn} logoutUser={logoutUser}/>
-    
       <Errors errors= {errors} />
       <Routes>
       <Route path="/" element= {<HomePage />} />

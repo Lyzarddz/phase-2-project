@@ -1,13 +1,14 @@
-import { PlayCircleOutlineTwoTone } from '@material-ui/icons';
 import React from 'react';
 import { Card } from "semantic-ui-react";
+
+
 
 const PlantCard = ( { plant } ) => {
 
   return (
     <Card>
           <div className="image">
-          <img src ={""} img alt={plant.name}/>
+          <img src={plant.photo} width={500} height={500} img alt={plant.name}/>
         </div>
         <div className="content">
           <div className="header">{plant.name}</div>
@@ -33,6 +34,8 @@ const PlantCard = ( { plant } ) => {
             Water Needs: {plant.water}
             </li>
             </ul>
+            <br></br>
+            <br></br>
         </div>
 
 
