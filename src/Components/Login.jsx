@@ -6,7 +6,7 @@ const Login = ({ loginUser, addErrors, clearErrors }) => {
   const [username, setUsername] = useState("");
   const [users, setUsers] = useState([]);
 
-  const navigate = useNavigate(0);
+  const navigate = useNavigate();
 
   const handleChange = e => {
     setUsername(e.target.value);

@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { Form } from "semantic-ui-react";
+import { useNavigate } from 'react-router-dom';
 
 
 const CreatePlant = ({ addPlant }) => {
 
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     name: "",
     origin: "",
@@ -46,6 +48,7 @@ const CreatePlant = ({ addPlant }) => {
     })
       .then((r) => r.json())
       .then(addPlant);
+      navigate("/");
   }
  
   return (
