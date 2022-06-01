@@ -109,6 +109,28 @@
       "substrate": "A combination of regular houseplant soil, peat moss, and perlite",
       "water": "Once a week",
       "photo": "https://user-images.githubusercontent.com/91993983/171308999-073be95b-78bc-4d5b-822c-67fd57c88ade.jpeg"
+    },
+    {
+      "name": "Alyssa Falcione",
+      "origin": "s",
+      "petsafe": "aw",
+      "lightneeds": "dwa",
+      "humidity": "DW",
+      "substrate": "DW",
+      "water": "DW",
+      "photo": "",
+      "id": 11
+    },
+    {
+      "name": "Alyssa Falcione",
+      "origin": "s",
+      "petsafe": "aw",
+      "lightneeds": "dwa",
+      "humidity": "DW",
+      "substrate": "DW",
+      "water": "DW",
+      "photo": "",
+      "id": 12
     }
   ],
   "users": [

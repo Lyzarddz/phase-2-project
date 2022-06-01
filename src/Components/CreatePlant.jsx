@@ -37,7 +37,7 @@ const CreatePlant = ({ addPlant }) => {
     
   };
 
-    fetch("http://localhost:3001/plants", {
+    fetch("http://localhost:3000/plants", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -46,9 +46,8 @@ const CreatePlant = ({ addPlant }) => {
     })
       .then((r) => r.json())
       .then(addPlant);
-
   }
-
+ 
   return (
     <div>
       <h1>Add a Plant!</h1>
@@ -128,7 +127,7 @@ const CreatePlant = ({ addPlant }) => {
            <br></br>
 
         </Form.Group>
-        <Form.Button>Submit</Form.Button>
+        <Form.Button onClick={()=> {alert("Plant Submitted! Check Out The HomePage To See Your Contribution")}}>Submit</Form.Button>
       </Form>
     </div>
   );
