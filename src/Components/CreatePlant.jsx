@@ -122,8 +122,8 @@ const CreatePlant = ({ addPlant }) => {
           <Form.Input
             fluid
             label="Image URL"
-            placeholder="url"
-            name="url"
+            placeholder="photo"
+            name="photo"
             value={formData.photo}
             onChange={handleChange}
           />

@@ -18,7 +18,7 @@
       "petsafe": "No",
       "lightneeds": "Low to Medium Light",
       "humidity": "60-70%",
-      "substrate": "3 parts leaf, 0.5 parts of humus, 1 part peat, 1 part sand and 0.5 part charcoal (3:0.5:1:1:0.5), or sheet ground, peat and sand (2:1:1) with crushed charcoal",
+      "substrate": "3 parts leaf, 0.5 parts of humus, 1 part peat, 1 part sand and 0.5 part charcoal",
       "water": "Once a week",
       "photo": "https://user-images.githubusercontent.com/91993983/171307453-70ea7bb6-9b71-4363-a9c0-2e9639e237de.jpeg"
     },
@@ -29,7 +29,7 @@
       "petsafe": "No",
       "lightneeds": "Low to Medium Light",
       "humidity": "60%",
-      "substrate": "You can use regular potting soil with an added handful of charcoal or expanded clay",
+      "substrate": "Regular potting soil with an added handful of charcoal or expanded clay",
       "water": "Once per week or once every two weeks",
       "photo": "https://user-images.githubusercontent.com/91993983/171307534-0f798ebf-e0a9-461e-8fb1-45f9bd3ac373.jpeg"
     },
@@ -109,39 +109,6 @@
       "substrate": "A combination of regular houseplant soil, peat moss, and perlite",
       "water": "Once a week",
       "photo": "https://user-images.githubusercontent.com/91993983/171308999-073be95b-78bc-4d5b-822c-67fd57c88ade.jpeg"
-    },
-    {
-      "name": "Alyssa Falcione",
-      "origin": "s",
-      "petsafe": "aw",
-      "lightneeds": "dwa",
-      "humidity": "DW",
-      "substrate": "DW",
-      "water": "DW",
-      "photo": "",
-      "id": 11
-    },
-    {
-      "name": "Alyssa Falcione",
-      "origin": "s",
-      "petsafe": "aw",
-      "lightneeds": "dwa",
-      "humidity": "DW",
-      "substrate": "DW",
-      "water": "DW",
-      "photo": "",
-      "id": 12
-    },
-    {
-      "name": "Alyssa Falcione",
-      "origin": "s",
-      "petsafe": "aw",
-      "lightneeds": "dwa",
-      "humidity": "DW",
-      "substrate": "DW",
-      "water": "DW",
-      "photo": "",
-      "id": 13
     }
   ],
   "users": [

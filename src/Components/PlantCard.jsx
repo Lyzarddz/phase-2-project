@@ -16,24 +16,19 @@ const PlantCard = ( { plant } ) => {
         <h3>
         <div className="extra content">
             <ul>
-           <li>
+           
             Origin: {plant.origin}
-            </li>
-            <li>
+           <br></br>
+           
             Pet Safe?: {plant.petsafe}
-            </li>
-            <li>
+            <br></br>
              Light Needs: {plant.lightneeds}    
-            </li>
-            <li>
+           <br></br>
             Humidity: {plant.humidity}
-            </li>
-            <li>
+           <br></br>
             Ideal Substrate: {plant.substrate}
-            </li>
-            <li>
+           <br></br>
             Water Needs: {plant.water}
-            </li>
             </ul>
             <br></br>
             <br></br>

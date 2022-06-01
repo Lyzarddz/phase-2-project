@@ -51,13 +51,13 @@ function NavBar({ loggedIn, logoutUser}) {
 
   function loggedOutLinks(){
     return(
-      <ul>
-        <FaLeaf/>
+      <ul >
+        <FaLeaf />
           <Button color="inherit" to="/" component={ Link }>Home </Button> 
           <FaLeaf/>
           <Button color="inherit" to="/login" component={ Link }>Login</Button> 
           <FaLeaf/>
-          <Button color="inherit" to="/signup" component={ Link }>Sign Up</Button> 
+          <Button color="inherit" to="/signup" component={ Link } >Sign Up</Button> 
       </ul>
     )
   }
@@ -66,8 +66,8 @@ function NavBar({ loggedIn, logoutUser}) {
     <div className={classes.root}>
       <AppBar position="static" className= {classes.green}>
         <Toolbar>
-          <h1>   <GiMonsteraLeaf/></h1>
-          <Typography variant="h5" className={classes.title}> 
+          <h1 className='largeText'>   <GiMonsteraLeaf/></h1>
+          <Typography variant="h4" className={classes.title}> 
             PlantyFo
           </Typography>
         { loggedIn ? loggedInLinks() :  loggedOutLinks()}

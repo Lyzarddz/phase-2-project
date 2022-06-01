@@ -7,10 +7,10 @@ import Login from './Components/Login';
 import CreatePlant from './Components/CreatePlant';
 import Signup from './Components/Signup';
 import Errors from './Components/Errors';
+import Stylesheet from './Components/Stylesheet';
 
  
 function App() {
-
 
   const[currentUser, setCurrentUser] = useState({});
   const [loggedIn, setLoggedIn]  = useState(false);
@@ -36,6 +36,7 @@ const clearErrors = () => {
   setErrors([]);
 }
 
+
 useEffect(() => {
   const userId = localStorage.getItem('user_id')
   if (userId && !loggedIn) {
@@ -51,6 +52,7 @@ useEffect(() => {
 
   return (
     <Router>
+
       <NavBar loggedIn={loggedIn} logoutUser={logoutUser}/>
       <Errors errors= {errors} />
       <Routes>
