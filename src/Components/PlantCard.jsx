@@ -11,8 +11,9 @@ const PlantCard = ( { plant } ) => {
           <img src={plant.photo} width={500} height={500} img alt={plant.name}/>
         </div>
         <div className="content">
-          <div className="header">{plant.name}</div>
+        <h1>  <div className="header">{plant.name}</div> </h1>
         </div>
+        <h3>
         <div className="extra content">
             <ul>
            <li>
@@ -37,6 +38,7 @@ const PlantCard = ( { plant } ) => {
             <br></br>
             <br></br>
         </div>
+        </h3>
 
 
     </Card>

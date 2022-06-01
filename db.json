@@ -20,7 +20,7 @@
       "humidity": "60-70%",
       "substrate": "3 parts leaf, 0.5 parts of humus, 1 part peat, 1 part sand and 0.5 part charcoal (3:0.5:1:1:0.5), or sheet ground, peat and sand (2:1:1) with crushed charcoal",
       "water": "Once a week",
-      "photo": ""
+      "photo": "https://user-images.githubusercontent.com/91993983/171307453-70ea7bb6-9b71-4363-a9c0-2e9639e237de.jpeg"
     },
     {
       "id": 3,
@@ -31,7 +31,7 @@
       "humidity": "60%",
       "substrate": "You can use regular potting soil with an added handful of charcoal or expanded clay",
       "water": "Once per week or once every two weeks",
-      "photo": ""
+      "photo": "https://user-images.githubusercontent.com/91993983/171307534-0f798ebf-e0a9-461e-8fb1-45f9bd3ac373.jpeg"
     },
     {
       "id": 4,
@@ -42,7 +42,7 @@
       "humidity": "30-50%",
       "substrate": "2 parts of coarse sand or perlite. 1 part peat moss or coconut coir. 1 part garden soil or potting mix.",
       "water": "Every 2 to 8 weeks",
-      "photo": ""
+      "photo": "https://user-images.githubusercontent.com/91993983/171307801-f765c197-d32c-4c07-b62d-ff1259ecb77c.jpeg"
     },
     {
       "id": 5,
@@ -53,7 +53,7 @@
       "humidity": "40%",
       "substrate": "Organic potting soil, orchid bark, perlite, and horticultural charcoal",
       "water": "Every 2 to 3 weeks",
-      "photo": ""
+      "photo": "https://user-images.githubusercontent.com/91993983/171307705-88c424b9-ce6f-427e-97de-228997e960d4.jpeg"
     },
     {
       "id": 6,
@@ -64,7 +64,7 @@
       "humidity": "40-50%",
       "substrate": "1 part peat, 1 part pine bark and 1 part coarse sand (or perlite)",
       "water": "Every 1 to 2 weeks",
-      "photo": ""
+      "photo": "https://user-images.githubusercontent.com/91993983/171307903-67d84a06-69f4-4f3e-96dc-057cd12e3681.jpeg"
     },
     {
       "id": 7,
@@ -75,7 +75,7 @@
       "humidity": "50-70%",
       "substrate": "Peat moss, vermiculite, or perlite",
       "water": "Every 1 to 2 weeks",
-      "photo": ""
+      "photo": "https://user-images.githubusercontent.com/91993983/171308085-6ecbe938-9405-49c8-816d-e515d164945c.jpeg"
     },
     {
       "id": 8,
@@ -86,7 +86,7 @@
       "humidity": "40-50%",
       "substrate": "Cacti potting mix",
       "water": "Every 2 weeks",
-      "photo": ""
+      "photo": "https://user-images.githubusercontent.com/91993983/171308602-f7db6848-f04a-405f-a7d4-0204afb21ede.jpeg"
     },
     {
       "id": 9,
@@ -97,7 +97,7 @@
       "humidity": "40-60%",
       "substrate": "A peat moss or sphagnum moss potting mix of organic soil with part sand and perlite",
       "water": "Every 2 weeks",
-      "photo": ""
+      "photo": "https://user-images.githubusercontent.com/91993983/171308771-c648fc14-7fa2-453e-a657-82ea852c8b54.jpeg"
     },
     {
       "id": 10,
@@ -108,7 +108,7 @@
       "humidity": "40-80%",
       "substrate": "A combination of regular houseplant soil, peat moss, and perlite",
       "water": "Once a week",
-      "photo": ""
+      "photo": "https://user-images.githubusercontent.com/91993983/171308999-073be95b-78bc-4d5b-822c-67fd57c88ade.jpeg"
     }
   ],
   "users": [
