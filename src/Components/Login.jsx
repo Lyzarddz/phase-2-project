@@ -42,7 +42,7 @@ const Login = ({ loginUser, addErrors, clearErrors }) => {
           <label htmlFor="username">Username: </label>
           <input type="text" name="username" id="username" onChange={ handleChange } value={ username } />
         </div>
-
+        <br></br>
         <input type="submit" value="Login" />
       </form>
     </div>

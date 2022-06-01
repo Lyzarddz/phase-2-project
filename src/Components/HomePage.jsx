@@ -3,6 +3,7 @@ import { Container } from "@material-ui/core";
 import Search from "./Search";
 import { RiPlantLine} from "react-icons/ri"
 import PlantList from './PlantList';
+import CreatePlant from './CreatePlant';
 
 
 const HomePage = () => {
@@ -19,6 +20,11 @@ const HomePage = () => {
      
   } , [])
 
+  function addPlant(plant){
+    setPlantLoad([plant,...plantLoad])
+  }
+  
+
   const plantSearch = plantLoad.filter((plant) =>
   plant.name.toLowerCase().includes(search.toLowerCase())
   )
@@ -34,8 +40,10 @@ const HomePage = () => {
       </Container>
       <br></br>
       <br></br>
-      <PlantList plant={plantSearch}/>
+      <PlantList plant={plantSearch} />
+      <CreatePlant addPlant={addPlant} />
     </div>
+    
 
   )
 }
