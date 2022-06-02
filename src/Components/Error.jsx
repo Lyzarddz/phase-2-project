@@ -2,9 +2,9 @@ import React from 'react'
 
 const Error = ({ error }) => {
   return (
-    <li>
+    <h1 className='errors'>
       { error }
-    </li>
+    </h1>
   )
 }
 

@@ -130,7 +130,7 @@ const CreatePlant = ({ addPlant }) => {
            <br></br>
 
         </Form.Group>
-        <Form.Button onClick={()=> {alert("Plant Submitted! Check Out The HomePage To See Your Contribution")}}>Submit</Form.Button>
+        <Form.Button className="btn" onClick={()=> {alert("Plant Submitted! Check Out The HomePage To See Your Contribution")}}>Submit</Form.Button>
       </Form>
     </div>
   );

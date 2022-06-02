@@ -21,3 +21,15 @@
     border-color: tan;
     
 }
+
+.errors {
+        color: slategrey;
+        padding-top: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;  
+        font-size: 50px;
+}
+
+.btn {
+    color: tan;
+}
