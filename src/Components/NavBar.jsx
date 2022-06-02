@@ -4,9 +4,10 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { GiMonsteraLeaf} from "react-icons/gi";
 import { FaLeaf} from "react-icons/fa"
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -24,12 +25,16 @@ const useStyles = makeStyles((theme) => ({
 
 }));
 
+
 function NavBar({ loggedIn, logoutUser}) {
   const classes = useStyles();
+
+const navigate = useNavigate();
 
   function logout(e) {
     e.preventDefault();
     logoutUser();
+    navigate("/")
     
   }
 

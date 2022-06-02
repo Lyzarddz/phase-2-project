@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
 import NavBar from './Components/NavBar';
 import HomePage from './Components/HomePage';
 import Login from './Components/Login';
@@ -8,6 +8,8 @@ import CreatePlant from './Components/CreatePlant';
 import Signup from './Components/Signup';
 import Errors from './Components/Errors';
 import Stylesheet from './Components/Stylesheet';
+
+
 
  
 function App() {
@@ -26,6 +28,7 @@ function logoutUser () {
   setCurrentUser({});
   setLoggedIn(false);
   localStorage.removeItem('user_id');
+
 }
 
 function addErrors (errors) {
@@ -52,7 +55,7 @@ useEffect(() => {
 
   return (
     <Router>
-
+      
       <NavBar loggedIn={loggedIn} logoutUser={logoutUser}/>
       <Errors errors= {errors} />
       <Routes>
