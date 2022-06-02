@@ -36,7 +36,7 @@ useEffect(() => {
 }, [])
  
   return ( 
-    <div>
+    <div className='primary'>
     <h1><GiCarnivorousPlant/> Create Account <GiCarnivorousPlant/></h1> 
     <form onSubmit={ handleSubmit}>
       <div>

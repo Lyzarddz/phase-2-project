@@ -52,7 +52,7 @@ const CreatePlant = ({ addPlant }) => {
   }
  
   return (
-    <div>
+    <div className='primary'>
       <h1>Add a Plant!</h1>
       <Form onSubmit={handleSubmit}>
         <Form.Group widths="equal">

@@ -33,7 +33,7 @@ const HomePage = () => {
        <Container>
          <br/>
          <h2>  <RiPlantLine/> Plant Search  <RiPlantLine/> </h2>
-         <Search search={search} setSearch={setSearch}/>
+         <Search  search={search} setSearch={setSearch}/>
       </Container>
       <br></br>
       <br></br>

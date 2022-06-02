@@ -35,7 +35,7 @@ const Login = ({ loginUser, addErrors, clearErrors }) => {
   }, [])
 
   return (
-    <div>
+    <div className='primary'>
     <h1><GiCarnivorousPlant/> Log In <GiCarnivorousPlant/></h1> 
       <form onSubmit={ handleSubmit }>
         <div>
