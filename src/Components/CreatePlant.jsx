@@ -68,7 +68,7 @@ const CreatePlant = ({ addPlant }) => {
           <Form.Input
             fluid
             label="Origin"
-            placeholder="origin"
+            placeholder="Origin"
             name="origin"
             value={formData.origin}
             onChange={handleChange}
@@ -86,7 +86,7 @@ const CreatePlant = ({ addPlant }) => {
           <Form.Input
             fluid
             label="Light Needs"
-            placeholder="lightneeds"
+            placeholder="Light Needs"
             name="lightneeds"
             value={formData.lightneeds}
             onChange={handleChange}
@@ -95,7 +95,7 @@ const CreatePlant = ({ addPlant }) => {
           <Form.Input
             fluid
             label="Humidity"
-            placeholder="humidity"
+            placeholder="Humidity"
             name="humidity"
             value={formData.humidity}
             onChange={handleChange}
@@ -105,7 +105,7 @@ const CreatePlant = ({ addPlant }) => {
             fluid
             label="Substrate"
             placeholder="substrate"
-            name="substrate"
+            name="Substrate"
             value={formData.substrate}
             onChange={handleChange}
           />
@@ -113,7 +113,7 @@ const CreatePlant = ({ addPlant }) => {
           <Form.Input
             fluid
             label="Water Needs"
-            placeholder="water"
+            placeholder="Water"
             name="water"
             value={formData.water}
             onChange={handleChange}
@@ -122,7 +122,7 @@ const CreatePlant = ({ addPlant }) => {
           <Form.Input
             fluid
             label="Image URL"
-            placeholder="photo"
+            placeholder="Photo"
             name="photo"
             value={formData.photo}
             onChange={handleChange}
