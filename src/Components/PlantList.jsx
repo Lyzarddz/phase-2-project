@@ -2,7 +2,7 @@ import React from 'react'
 import PlantCard from './PlantCard'
 import { Card } from "semantic-ui-react";
 
-const PlantList = ( { plant , addPlant} ) => {
+const PlantList = ( { plant } ) => {
   const cards= plant.map((p)=> {
       return(
           <PlantCard
