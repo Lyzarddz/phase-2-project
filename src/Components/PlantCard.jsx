@@ -8,7 +8,7 @@ const PlantCard = ( { plant } ) => {
   return (
     <Card>
           <div className="image">
-          <img src={plant.photo} width={500} height={500} img alt={plant.name} className="border"/>
+          <img src={plant.photo} width={500} height={500} alt={plant.name} className="border"/>
         </div>
         <div className="content">
         <h1>  <div className="header"> {plant.name}</div> </h1>
