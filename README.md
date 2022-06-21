@@ -37,6 +37,9 @@ Feel free to add house plants to the database.
 * Photos retrieved from iStock by Getty Images
 
 ## Extra Content
+Sneak Peek!
+![New Recording - 6_21_2022, 2_03_44 PM webm-low](https://user-images.githubusercontent.com/91993983/174908122-751d2e8f-88d2-4926-9750-e0adb0d36a17.gif)
+
 
 Follow this link to watch a video walkthrough of how the use this application: https://vimeo.com/722330316/15cce9f7e3
 
