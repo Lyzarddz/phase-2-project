@@ -35,3 +35,11 @@ In the future, Plantyfo will be updated with a larger plant database and may als
 Feel free to add house plants to the database.
 
 * Photos retrieved from iStock by Getty Images
+
+## Extra Content
+
+Follow this link to watch a video walkthrough of how the use this application: https://vimeo.com/722330316/15cce9f7e3
+
+Sneak Peek!
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/722665310?h=9e23dbe295&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="New Recording - 6/21/2022, 2:03:44 PM"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>

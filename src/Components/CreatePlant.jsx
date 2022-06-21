@@ -28,7 +28,7 @@ const CreatePlant = ({ addPlant }) => {
     // Semantic UI React's Form component handles the preventDefault automatically!
 
     const newPlant = {
-      name: formData.name,
+    name: formData.name,
      origin: formData.origin,
      petsafe: formData.petsafe,
      lightneeds: formData.lightneeds,
@@ -103,9 +103,9 @@ const CreatePlant = ({ addPlant }) => {
            <br></br>
           <Form.Input
             fluid
-            label="Substrate"
-            placeholder="substrate"
-            name="Substrate"
+            label="substrate"
+            placeholder="Substrate"
+            name="substrate"
             value={formData.substrate}
             onChange={handleChange}
           />

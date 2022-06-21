@@ -109,6 +109,17 @@
       "substrate": "A combination of regular houseplant soil, peat moss, and perlite",
       "water": "Once a week",
       "photo": "https://user-images.githubusercontent.com/91993983/171308999-073be95b-78bc-4d5b-822c-67fd57c88ade.jpeg"
+    },
+    {
+      "name": "Monstera",
+      "origin": "Mexico",
+      "petsafe": "No",
+      "lightneeds": "High",
+      "humidity": "80%",
+      "substrate": "Perlite",
+      "water": "Once Weekly",
+      "photo": "https://user-images.githubusercontent.com/91993983/171308999-073be95b-78bc-4d5b-822c-67fd57c88ade.jpeg",
+      "id": 11
     }
   ],
   "users": [
@@ -151,6 +162,14 @@
     {
       "username": "Lyzarddz!",
       "id": 10
+    },
+    {
+      "username": "Lyzarddz!",
+      "id": 11
+    },
+    {
+      "username": "Lyzarddz!",
+      "id": 12
     }
   ]
 }
