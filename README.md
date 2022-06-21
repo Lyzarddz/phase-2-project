@@ -41,4 +41,4 @@ Feel free to add house plants to the database.
 Follow this link to watch a video walkthrough of how the use this application: https://vimeo.com/722330316/15cce9f7e3
 
 Sneak Peek!
-![](https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/2a6b6efc-ce6a-41e1-8c1a-f7592e4541e3.gif?ClientID%3Dvimeo-core-prod%26Date%3D1655850347%26Signature%3D5dfa6d61ccea5bb6efaeeda8b45f569254ffd1cb)
+![](https://file%2B.vscode-resource.vscode-cdn.net/Users/Alyssa/Downloads/New%20Recording%20-%206_21_2022%2C%202_03_44%20PM.webm-low.gif?version%3D1655850615448)
