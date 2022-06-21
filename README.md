@@ -42,4 +42,7 @@ Follow this link to watch a video walkthrough of how the use this application: h
 
 Sneak Peek!
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/722665310?h=9e23dbe295&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="New Recording - 6/21/2022, 2:03:44 PM"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+New Recording - 6_21_2022, 2_03_44 PM.webm
+
+Link
+https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/436626ca-09f9-441f-a27c-4dba81254587.gif?ClientID=vimeo-core-prod&Date=1655850226&Signature=f91a5edd823c47dbbc459c82460284a2e4b606cc
