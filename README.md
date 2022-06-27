@@ -12,14 +12,14 @@ This projects first version is complete. Future versions may follow with added f
 # Installation
 ##Yarn
 * Fork and Clone
-* Open project, 
+* Open project
 * Run yarn add semantic-ui-react semantic-ui-css
 * Run yarn install 
 * Run json-server --watch db.json
 * Run yarn Start
 ## NPM
 * Fork and then Clone
-* Open project, 
+* Open project
 * Run npm install semantic-ui-react semantic-ui-css
 * Run npm install 
 * Run json-server --watch db.json
