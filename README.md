@@ -18,7 +18,7 @@ This projects first version is complete. Future versions may follow with added f
 *Run json-server --watch db.json
 *Run yarn Start
 ## Or NPM
-*Fork and Clone
+*Fork and then Clone
 *Open project, 
 *Run npm install semantic-ui-react semantic-ui-css
 *Run npm install 
