@@ -11,19 +11,19 @@ This projects first version is complete. Future versions may follow with added f
 
 # Installation
 ##Yarn
-*Fork and Clone
-*Open project, 
-*Run yarn add semantic-ui-react semantic-ui-css
-*Run yarn install 
-*Run json-server --watch db.json
-*Run yarn Start
+-Fork and Clone
+-Open project, 
+-Run yarn add semantic-ui-react semantic-ui-css
+-Run yarn install 
+-Run json-server --watch db.json
+-Run yarn Start
 ## Or NPM
-*Fork and then Clone
-*Open project, 
-*Run npm install semantic-ui-react semantic-ui-css
-*Run npm install 
-*Run json-server --watch db.json
-*Run npm Start
+-Fork and Clone
+-Open project, 
+-Run npm install semantic-ui-react semantic-ui-css
+-Run npm install 
+-Run json-server --watch db.json
+-Run npm Start
 
 ## Support
 Email alyssafalcione@gmail.com for any issues or technical support
