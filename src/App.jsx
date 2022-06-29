@@ -15,7 +15,7 @@ import Stylesheet from './Components/Stylesheet';
  
 function App() {
 
-  const[currentUser, setCurrentUser] = useState({});
+  const [currentUser, setCurrentUser] = useState({});
   const [loggedIn, setLoggedIn]  = useState(false);
   const [errors, setErrors] = useState([]);
 

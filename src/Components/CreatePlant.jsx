@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Form } from "semantic-ui-react";
 import { useNavigate } from 'react-router-dom';
+import { GiMonsteraLeaf} from "react-icons/gi";
 
 
 const CreatePlant = ({ addPlant }) => {
@@ -24,11 +25,12 @@ const CreatePlant = ({ addPlant }) => {
     });
   }
 
+
   function handleSubmit() {
     // Semantic UI React's Form component handles the preventDefault automatically!
 
     const newPlant = {
-    name: formData.name,
+     name: formData.name,
      origin: formData.origin,
      petsafe: formData.petsafe,
      lightneeds: formData.lightneeds,
@@ -53,7 +55,7 @@ const CreatePlant = ({ addPlant }) => {
  
   return (
     <div className='primary'>
-      <h1>Add a Plant!</h1>
+      <h1 >Add a Plant!</h1><GiMonsteraLeaf className='largeText'/>
       <Form onSubmit={handleSubmit}>
         <Form.Group widths="equal">
           <Form.Input
