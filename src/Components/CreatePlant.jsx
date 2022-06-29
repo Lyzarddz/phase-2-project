@@ -59,7 +59,6 @@ const CreatePlant = ({ addPlant }) => {
       <Form onSubmit={handleSubmit}>
         <Form.Group widths="equal">
           <Form.Input
-            fluid
             label="Name"
             placeholder="Name"
             name="name"
@@ -68,7 +67,6 @@ const CreatePlant = ({ addPlant }) => {
           />
           <br></br>
           <Form.Input
-            fluid
             label="Origin"
             placeholder="Origin"
             name="origin"
@@ -77,7 +75,6 @@ const CreatePlant = ({ addPlant }) => {
           />
            <br></br>
           <Form.Input
-            fluid
             label="Pet Safe"
             placeholder="Pet Safe"
             name="petsafe"
@@ -86,7 +83,6 @@ const CreatePlant = ({ addPlant }) => {
           />
            <br></br>
           <Form.Input
-            fluid
             label="Light Needs"
             placeholder="Light Needs"
             name="lightneeds"
@@ -95,7 +91,6 @@ const CreatePlant = ({ addPlant }) => {
           />
            <br></br>
           <Form.Input
-            fluid
             label="Humidity"
             placeholder="Humidity"
             name="humidity"
@@ -104,7 +99,6 @@ const CreatePlant = ({ addPlant }) => {
           />
            <br></br>
           <Form.Input
-            fluid
             label="substrate"
             placeholder="Substrate"
             name="substrate"
@@ -113,7 +107,6 @@ const CreatePlant = ({ addPlant }) => {
           />
            <br></br>
           <Form.Input
-            fluid
             label="Water Needs"
             placeholder="Water"
             name="water"
@@ -122,7 +115,6 @@ const CreatePlant = ({ addPlant }) => {
           />
            <br></br>
           <Form.Input
-            fluid
             label="Image URL"
             placeholder="Photo"
             name="photo"
