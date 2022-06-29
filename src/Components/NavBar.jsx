@@ -40,30 +40,31 @@ const navigate = useNavigate();
 
   function loggedInLinks(){
     return (
-      <ul>
+      <div>
         <FaLeaf/>
          <Button color="inherit" to="/" component={ Link }>Home </Button> 
          <FaLeaf/>
          <Button color="inherit" to="/create" component={ Link }>Add PlantyFo</Button> 
-         <li>
-           
-           <a href="#" onClick={logout}>Logout
+        
+         <FaLeaf/>
+           <a href="#" className="logout" onClick={logout}>Logout
            </a>
-           </li>
-      </ul>
+           <FaLeaf/>
+          
+      </div>
     )
   }
 
   function loggedOutLinks(){
     return(
-      <ul >
+      <div >
         <FaLeaf />
           <Button color="inherit" to="/" component={ Link }>Home </Button> 
           <FaLeaf/>
           <Button color="inherit" to="/login" component={ Link }>Login</Button> 
           <FaLeaf/>
           <Button color="inherit" to="/signup" component={ Link } >Sign Up</Button> 
-      </ul>
+      </div>
     )
   }
 
