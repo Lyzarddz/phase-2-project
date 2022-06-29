@@ -37,6 +37,7 @@ In the future, Plantyfo will be updated with a larger plant database and may als
 Feel free to add house plants to the database.
 
 * Photos retrieved from iStock by Getty Images
+* Icons retrieved from React-icons.github
 
 ## Extra Content
 Sneak Peek!
